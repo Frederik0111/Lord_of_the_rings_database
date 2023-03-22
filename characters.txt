@@ -1,0 +1,22 @@
+Aragorn
+aragornName = "Aragorn II Elessar";
+aragornGender = "male";
+aragornBirthPlace = "Eriador";
+aragornAge = "87";
+aragornSpecies = "numenorean";
+aragornEyeColour = "grey";
+aragornHairColour = "dark";
+aragornActor = "Viggo Mortensen";
+aragornImage = "./images/Aragorn.png";
+
+Frodo 
+frodoName = "Frodo Baggings";
+frodoGender = "male";
+frodoBirthPlace = "The Shire";
+frodoAge = "50";
+frodoSpecies = "hobbit";
+frodoEyeColour = "blue";
+frodoHairColour = "brown";
+frodoActor = "Elijah Wood";
+frodoImage = "./images/Frodo.png";
+
