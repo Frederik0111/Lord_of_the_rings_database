@@ -2,21 +2,130 @@ Aragorn
 aragornName = "Aragorn II Elessar";
 aragornGender = "male";
 aragornBirthPlace = "Eriador";
-aragornAge = "87";
-aragornSpecies = "numenorean";
+aragornAge = "88";
+aragornSpecies = "human";
 aragornEyeColour = "grey";
 aragornHairColour = "dark";
 aragornActor = "Viggo Mortensen";
 aragornImage = "./images/Aragorn.png";
 
+Boromir
+BoromirName = "Boromir";
+BoromirGender = "male";
+boromirBirthPlace = "Gondor";
+boromirAge = "41";
+boromirSpecies = "human";
+boromirEyeColour = "grey";
+boromirHairColour = "dark"
+boromirActor = "Sean Bean";
+boromirImage = "./images/Boromir.png";
+
+Faramir
+faramirName = "Faramir";
+faramirGender = "male";
+faramirBirthPlace = "Gondor";
+faramirAge = "36";
+faramirSpecies = "human";
+faramirEyeColour = "grey";
+faramirHairColour = "raven";
+faramirActor = "David Wenham";
+faramirImage = "./images/Faramir.png";
+
 Frodo 
 frodoName = "Frodo Baggings";
 frodoGender = "male";
 frodoBirthPlace = "The Shire";
-frodoAge = "50";
+frodoAge = "51";
 frodoSpecies = "hobbit";
 frodoEyeColour = "blue";
 frodoHairColour = "brown";
 frodoActor = "Elijah Wood";
 frodoImage = "./images/Frodo.png";
 
+Gandalf
+gandalfName = "Gandalf the Grey";
+gandalfGender = "male";
+gandalfBirthPlace = "Valinor";
+gandalfAge = "2019";
+gandalfSpecies = "maia";
+gandalfEyeColour = "blue";
+gandalfHairColour = "grey";
+gandalfActor = "Ian McKellen";
+gandalfImage = "./images/Gandalf_the_Grey";
+
+Gimli
+gimliName = "Gimli";
+gimliGender = "male";
+gimliBirthPlace = "Blue Mountains";
+gimliAge = "140";
+gimliSpecies = "dwarf";
+gimliEyeColour = "dark";
+gimliHairColour = "red";
+gimliActor = "John Rhys-Davies";
+gimliImage = "./images/Gimli.png";
+
+Legolas 
+legolasName = "Legolas Greenleaf";
+legolasGender = "male";
+legolasBirthPlace = "Mirkwood";
+legolasAge = "2931";
+legolasSpecies = "elf";
+legolasEyeColour = "";
+legolasHairColour = "blond";
+legolasActor = "blue";
+legolasImage = "./images/Legolas.png";
+
+Merry
+merryName  = "Meriadoc Brandybuck";
+merryGender = "male";
+merryBirthPlace = "The Shire";
+merryAge = "37";
+merrySpecies = "hobbit";
+merryEyeColour = "green";
+merryHairColour = "brown";
+merryActor = "Dominic Monaghan";
+merryImage = "./images/Merry.png";
+
+Pippin 
+pippinName = "Peregrin Took";
+pippinGender = "male";
+pippinBirthPlace = "The Shire";
+pippinAge = "29";
+pippinSpecies = "hobbit";
+pippinEyeColour = "green";
+pippinHairColour = "golden red";
+pippinActor = "Billy Boyd";
+pippinImage = "./images/Pippin.png";
+
+Sam 
+samName = "Samwise Gamgee";
+samGender = "male";
+samBirthPlace = "The Shire";
+samAge = "36";
+samSpecies = "hobbit";
+samEyeColour = "brown";
+samHairColour = "blond";
+samActor = "Sean Astin";
+samImage = "./images/Sam.png";
+
+Saruman 
+sarumanName = "Saruman";
+sarumanGender = "male";
+sarumanBirthPlace = "";
+sarumanAge = "2001";
+sarumanSpecies = "maia";
+sarumanEyeColour = "black";
+sarumanHairColour = "white";
+sarumanActor = "Christopher Lee";
+sarumanImage = "./images/Saruman.png";
+
+Sauron 
+sauronName = "Sauron";
+sauronGender = "male";
+sauronBirthPlace = "unknown";
+sauronAge = "6000";
+sauronSpecies = "maia";
+sauronEyeColour = "unknown";
+sauronHairColour = "unknown";
+sauronActor = "Sala Baker";
+sauronImage = "./images/Sauron.png";
