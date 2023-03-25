@@ -1,0 +1,13 @@
+{
+    "name": "Aragorn",
+    "gender": "male",
+    "birthPlace": "Eriador",
+    "age": "88",
+    "species": "human",
+    "eyeColour": "blue",
+    "hairColour": "dark brown",
+    "actor": "Viggo Mortensen",
+    "fellowship": "true",
+    "alive": "true",
+    "image": "https://i.imgur.com/E6HxzNk.png" 
+}

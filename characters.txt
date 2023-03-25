@@ -1,5 +1,5 @@
 Aragorn
-aragornName = "Aragorn II Elessar";
+aragornName = "Aragorn";
 aragornGender = "male";
 aragornBirthPlace = "Eriador";
 aragornAge = "88";
