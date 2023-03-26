@@ -4,14 +4,14 @@
 window.addEventListener("load", initApp);
 
 function initApp() {
-    const frodoName = "Frodo Baggings";
-    const frodoGender = "male";
-    const frodoBirthPlace = "The Shire";
-    const frodoAge = "50";
-    const frodoSpecies = "hobbit";
-    const frodoEyeColour = "blue";
-    const frodoHairColour = "brown";
-    const frodoActor = "Elijah Wood";
-    const frodoImage = "./images/Frodo.png";
+    const aragonName = "Aragon";
+    const aragonGender = "male";
+    const aragonBirthPlace = "Eriador";
+    const aragonAge = "88";
+    const aragonSpecies = "human";
+    const aragonEyeColour = "blue";
+    const aragonHairColour = "dark brown";
+    const aragonActor = "Viggo Mortensen";
+    const aragonImage = "./images/aragon.png";
 }
 
