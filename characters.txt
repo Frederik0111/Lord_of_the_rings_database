@@ -4,8 +4,8 @@ aragornGender = "male";
 aragornBirthPlace = "Eriador";
 aragornAge = "88";
 aragornSpecies = "human";
-aragornEyeColour = "grey";
-aragornHairColour = "dark";
+aragornEyeColour = "blue";
+aragornHairColour = "dark brown";
 aragornActor = "Viggo Mortensen";
 aragornImage = "./images/Aragorn.png";
 
@@ -15,8 +15,8 @@ BoromirGender = "male";
 boromirBirthPlace = "Gondor";
 boromirAge = "41";
 boromirSpecies = "human";
-boromirEyeColour = "grey";
-boromirHairColour = "dark"
+boromirEyeColour = "green";
+boromirHairColour = "brown"
 boromirActor = "Sean Bean";
 boromirImage = "./images/Boromir.png";
 
@@ -26,8 +26,8 @@ faramirGender = "male";
 faramirBirthPlace = "Gondor";
 faramirAge = "36";
 faramirSpecies = "human";
-faramirEyeColour = "grey";
-faramirHairColour = "raven";
+faramirEyeColour = "blue";
+faramirHairColour = "ginger brown";
 faramirActor = "David Wenham";
 faramirImage = "./images/Faramir.png";
 
