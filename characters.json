@@ -62,7 +62,7 @@
         "actor": "Ian McKellen",
         "fellowship": "true",
         "alive": "false",
-        "image": "./images/Gandalf_the_Grey.png"
+        "image": "./images/Gandalf.png"
     },
     {
         "name": "Gimli",
