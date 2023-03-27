@@ -10,7 +10,7 @@
         "actor": "Viggo Mortensen",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/E6HxzNk.png"
+        "image": "./images/Aragorn.png"
     },
     {
         "name": "Boromir",
@@ -23,7 +23,7 @@
         "actor": "Sean Bean",
         "fellowship": "true",
         "alive": "false",
-        "image": "https://i.imgur.com/qSLcPL4.png"    
+        "image": "./images/Boromir.png"    
     },
     {
         "name": "Faramir",
@@ -36,7 +36,7 @@
         "actor": "David Wenham",
         "fellowship": "false",
         "alive": "true",
-        "image": "https://i.imgur.com/zvW7TZE.png"
+        "image": "./images/Faramir.png"
     },
     {
         "name": "Frodo Baggins",
@@ -49,7 +49,7 @@
         "actor": "Elijah Wood",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/JgYddBD.png"
+        "image": "./images/Frodo.png"
     },
     {
         "name": "Gandalf the Grey",
@@ -62,7 +62,7 @@
         "actor": "Ian McKellen",
         "fellowship": "true",
         "alive": "false",
-        "image": "https://i.imgur.com/yvqqT16.png"
+        "image": "./images/Gandalf_the_Grey.png"
     },
     {
         "name": "Gimli",
@@ -75,7 +75,7 @@
         "actor": "John Rhys-Davies",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/IWofWI0.png"
+        "image": "./images/Gimli.png"
     },
     {
         "name": "Legolas Greenleaf",
@@ -88,7 +88,7 @@
         "actor": "Orlando Bloom",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/hAptHws.png"
+        "image": "./images/Legolas.png"
     },
     {
         "name": "Meriadoc Brandybuck",
@@ -101,7 +101,7 @@
         "actor": "Dominic Monaghan",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/OU7h85T.png"
+        "image": "./images/Merry.png"
     },
     {
         "name": "Peregrin Took",
@@ -114,7 +114,7 @@
         "actor": "Billy Boyd",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/3Y2cDf7.png"
+        "image": "./images/Pippin.png"
     },
     {
         "name": "Samwise Gamgee",
@@ -127,7 +127,7 @@
         "actor": "Sean Astin",
         "fellowship": "true",
         "alive": "true",
-        "image": "https://i.imgur.com/Bb34S8i.png"
+        "image": "./images/Sam.png"
     },
     {
         "name": "Saruman",
@@ -140,7 +140,7 @@
         "actor": "Christopher Lee",
         "fellowship": "false",
         "alive": "false",
-        "image": "https://i.imgur.com/ADVOEqf.png"
+        "image": "./images/Saruman.png"
     },
     {
         "name": "Sauron",
@@ -153,6 +153,6 @@
         "actor": "Sala Baker",
         "fellowship": "false",
         "alive": "false",
-        "image": "https://i.imgur.com/GgpMlMW.png"
+        "image": "./images/Sauron.png"
     }
 ]
