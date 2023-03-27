@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <title>LoTR Database</title>
 </head>
+
 <body>
     <header>
         <h1>Lord of The Rings Character Movie Database</h1>
@@ -16,9 +17,42 @@
         <section id="characters" class="grid-container"></section>
     </main>
 
+    <dialog id="dialog-character">
+        <section class="dialog-grid">
+            <figure><img id="dialog-image" src="https://i.imgur.com/E6HxzNk.png" alt=""></figure>
+            <article>
+                <h2 id="dialog-name"></h2>
+                <h3 id="dialog-fellow-ship"></h3>
+                <p id="dialog-character-description"></p>
+                <section>
+                    <h4>Character Info</h4>
+                    <ul>
+                        <li>Gender: <span id="dialog-gender"></span></li>
+                        <li>Age: <span id="dialog-birth-date"></span></li>
+                        <li>Eye Colour: <span id="dialog-eye-colour"></span></li>
+                        <li>Hair Colour: <span id="dialog-hair-colour"></span></li>
+                        <li>Birthplace: <span id="dialog-birth-place"></span></li>
+                        <li>Species: <span id="dialog-species"></span></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h4>Actor</h4>
+                    <p><span id="dialog-name">Character</span> is played by <span id="dialog-actor-name">actor
+                            name</span>.</p>
+                    <h4>Fate at the end of the third movie</h4>
+                    <p><span id="dialog-name">Character</span> is <span id="dialog-alive">fate</span>.</p>
+                </section>
+
+            </article>
+        </section>
+    </dialog>
+
     <footer>
         <p>Images on this site are not owned by the creator of this site</p>
     </footer>
+    
     <script src="app.js"></script>
+
 </body>
 </html>

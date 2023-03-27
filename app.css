@@ -2,24 +2,21 @@
 :root {
     --green: rgb(20, 50, 43);
     --light-green: rgb(75, 107, 86);
-    --light-grey: #f1f1f4;
     --text-color-gold: gold;
-    --white: #f2f2f2;
-    /* --font-family: "Helvetica", Helvetica, Arial, sans-serif; */
+    --light-pink-red: #c7b8ba;
 }
 
 /* ---------- general styling ---------- */
-html {
-    color: var(--text-color-gold);
-    /* font-family: var(--font-family); */
-    font-family: "Bilbo_Regular";
-    height: 100%;
-    width: 100%;
-}
-
 @font-face {
     font-family: "Bilbo_Regular";
     src: url(Bilbo_Regular.ttf);
+}
+
+html {
+    color: var(--text-color-gold);
+    font-family: "Bilbo_Regular";
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -129,7 +126,7 @@ main {
 .grid-item {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
     padding: 1.5em;
-    background-color: var(--white);
+    background-color: var(--light-pink-red);
     transition: 0.5s;
     animation: fadeIn 0.5s;
     cursor: pointer;
@@ -194,7 +191,7 @@ input {
     padding: 1em;
     border: 2px solid var(--green);
     display: block;
-    background: var(--white);
+    background: var(--light-pink-red);
 }
 
 /* ---------- dialog styling ---------- */
