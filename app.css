@@ -51,6 +51,14 @@ img {
     height: auto;
 }
 
+figcaption {
+    font-size: 2em;
+}
+
+li {
+    font-size: 1.4em;
+}
+
 /* ---------- header styling ---------- */
 header {
     background-color: var(--green);
