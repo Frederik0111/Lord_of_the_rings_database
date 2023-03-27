@@ -39,7 +39,7 @@
         "image": "https://i.imgur.com/zvW7TZE.png"
     },
     {
-        "name": "Frodo",
+        "name": "Frodo Baggins",
         "gender": "male",
         "birthPlace": "The Shire",
         "age": "51",
@@ -50,5 +50,109 @@
         "fellowship": "true",
         "alive": "true",
         "image": "https://i.imgur.com/JgYddBD.png"
-    }  
+    },
+    {
+        "name": "Gandalf the Grey",
+        "gender": "male",
+        "birthPlace": "Valinor",
+        "age": "2019",
+        "species": "maia",
+        "eyeColour": "blue",
+        "hairColour": "grey",
+        "actor": "Ian McKellen",
+        "fellowship": "true",
+        "alive": "false",
+        "image": "https://i.imgur.com/yvqqT16.png"
+    },
+    {
+        "name": "Gimli",
+        "gender": "male",
+        "birthPlace": "Blue Mountains",
+        "age": "140",
+        "species": "dwarf",
+        "eyeColour": "dark",
+        "hairColour": "red",
+        "actor": "John Rhys-Davies",
+        "fellowship": "true",
+        "alive": "true",
+        "image": "https://i.imgur.com/IWofWI0.png"
+    },
+    {
+        "name": "Legolas Greenleaf",
+        "gender": "male",
+        "birthPlace": "Mirkwood",
+        "age": "2931",
+        "species": "elf",
+        "eyeColour": "blue",
+        "hairColour": "blond",
+        "actor": "Orlando Bloom",
+        "fellowship": "true",
+        "alive": "true",
+        "image": "https://i.imgur.com/hAptHws.png"
+    },
+    {
+        "name": "Meriadoc Brandybuck",
+        "gender": "male",
+        "birthPlace": "The Shire",
+        "age": "37",
+        "species": "hobbit",
+        "eyeColour": "green",
+        "hairColour": "brown",
+        "actor": "Dominic Monaghan",
+        "fellowship": "true",
+        "alive": "true",
+        "image": "https://i.imgur.com/OU7h85T.png"
+    },
+    {
+        "name": "Peregrin Took",
+        "gender": "male",
+        "birthPlace": "The Shire",
+        "age": "29",
+        "species": "hobbit",
+        "eyeColour": "green",
+        "hairColour": "golden red",
+        "actor": "Billy Boyd",
+        "fellowship": "true",
+        "alive": "true",
+        "image": "https://i.imgur.com/3Y2cDf7.png"
+    },
+    {
+        "name": "Samwise Gamgee",
+        "gender": "male",
+        "birthPlace": "The Shire",
+        "age": "36",
+        "species": "hobbit",
+        "eyeColour": "brown",
+        "hairColour": "blond",
+        "actor": "Sean Astin",
+        "fellowship": "true",
+        "alive": "true",
+        "image": "https://i.imgur.com/Bb34S8i.png"
+    },
+    {
+        "name": "Saruman",
+        "gender": "male",
+        "birthPlace": "unknown",
+        "age": "2001",
+        "species": "maia",
+        "eyeColour": "black",
+        "hairColour": "white",
+        "actor": "Christopher Lee",
+        "fellowship": "false",
+        "alive": "false",
+        "image": "https://i.imgur.com/ADVOEqf.png"
+    },
+    {
+        "name": "Sauron",
+        "gender": "male",
+        "birthPlace": "unknown",
+        "age": "6000",
+        "species": "maia",
+        "eyeColour": "unknown",
+        "hairColour": "unknown",
+        "actor": "Sala Baker",
+        "fellowship": "false",
+        "alive": "false",
+        "image": "https://i.imgur.com/GgpMlMW.png"
+    }
 ]

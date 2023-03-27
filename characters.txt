@@ -70,9 +70,9 @@ legolasGender = "male";
 legolasBirthPlace = "Mirkwood";
 legolasAge = "2931";
 legolasSpecies = "elf";
-legolasEyeColour = "";
+legolasEyeColour = "blue";
 legolasHairColour = "blond";
-legolasActor = "blue";
+legolasActor = "Orlando Bloom";
 legolasImage = "./images/Legolas.png";
 
 Merry
