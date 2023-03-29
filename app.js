@@ -1,13 +1,13 @@
 "use strict";
 
-let charactersData;
-
 // run initApp on load //
 window.addEventListener("load", initApp);
 
+let charactersData;
+
 // show characters on main //
 function initApp() {
-  charactersData = fetch("characters.json")
+  charactersData = fetch("https://raw.githubusercontent.com/Frederik0111/Lord_of_the_rings_database/main/characters.json")
     .then((response) => response.json())
     .then((data) => data);
 
@@ -47,12 +47,12 @@ function characterClicked(event) {
 function showCharacterModal(characterName) {
   charactersData.then((characters) => {
     const character = characters.find((c) => c.name === characterName);
-    //image, name and birthPlace
+    //image, name and birthPlace //
     document.querySelector("#dialog-image").src = character.image;
     document.querySelector("#dialog-name").textContent = character.name;
     document.querySelector("#dialog-birth-place").textContent =
       character.birthPlace;
-    // description
+    // description //
     document.querySelector("#dialog-gender").textContent = character.gender;
     document.querySelector("#dialog-age").textContent = character.age;
     document.querySelector("#dialog-eye-colour").textContent =
@@ -64,19 +64,33 @@ function showCharacterModal(characterName) {
     document.querySelector("#dialog-name").textContent = character.name;
     document.querySelector("#dialog-actor-name").textContent = character.actor;
 
-    let description = generateFellowship(character);
-    document.querySelector("#dialog-character-description").textContent =
-      description;
+    let descriptionFellowship = generateFellowship(character);
+    document.querySelector("#dialog-character-description-fellowship").textContent =
+      descriptionFellowship;
+    
+    let descriptionAlive = generateAlive(character);
+    document.querySelector("#dialog-character-description-alive").textContent =
+      descriptionAlive;
 
-    // show dialog
+    // show dialog //
     document.querySelector("#dialog-character").showModal();
   });
 }
 
+// generate fellowship status //
 function generateFellowship(character) {
   if (character.fellowship === "true") {
     return `${character.name} is part of the Fellowship of the Ring.`;
   } else {
     return `${character.name} is not part of the Fellowship of the Ring.`;
+  }
+}
+
+// generate alive status //
+function generateAlive(character) {
+  if (character.alive === "true") {
+    return `${character.name} is alive at the end.`;
+  } else {
+    return `${character.name} is not alive at the end`;
   }
 }
