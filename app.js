@@ -23,8 +23,8 @@ function initApp() {
         <ul>
           <li><strong>Gender:</strong> ${character.gender}</li>
           <li><strong>Age:</strong> ${character.age}</li>
-          <li><strong>Eye Colour:</strong> ${character.eyeColour}</li>
-          <li><strong>Hair Colour:</strong> ${character.hairColour}</li>
+          <li><strong>Eye colour:</strong> ${character.eyeColour}</li>
+          <li><strong>Hair colour:</strong> ${character.hairColour}</li>
           <li><strong>Birthplace:</strong> ${character.birthPlace}</li>
           <li><strong>Species:</strong> ${character.species}</li>
         </ul>
