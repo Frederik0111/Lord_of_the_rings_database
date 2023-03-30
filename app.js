@@ -7,10 +7,11 @@ let charactersData;
 
 // show characters on main //
 function initApp() {
-  charactersData = fetch("https://raw.githubusercontent.com/Frederik0111/Lord_of_the_rings_database/main/characters.json")
+  charactersData = fetch
+  ("https://raw.githubusercontent.com/Frederik0111/Lord_of_the_rings_database/main/characters.json")
     .then((response) => response.json())
-    .then((data) => data);
-
+    .then((data) => data.map((character) => capitalizeFirstLetter(character)));
+   
   charactersData.then((characters) => {
     const charactersContainer = document.querySelector("#characters");
     characters.forEach((character) => {
@@ -37,6 +38,19 @@ function initApp() {
   document
     .querySelector("#characters")
     .addEventListener("click", characterClicked);
+}
+
+function capitalizeFirstLetter(obj) {
+  const capitalizedObj = {};
+  for (let key in obj) {
+    const value = obj[key];
+    if (typeof value === "string" && value !== "true" && value !== "false") {
+      capitalizedObj[key] = value.charAt(0).toUpperCase() + value.slice(1);
+    } else {
+      capitalizedObj[key] = value;
+    }
+  }
+  return capitalizedObj;
 }
 
 function characterClicked(event) {
@@ -91,6 +105,6 @@ function generateAlive(character) {
   if (character.alive === "true") {
     return `${character.name} is alive at the end.`;
   } else {
-    return `${character.name} is not alive at the end`;
+    return `${character.name} is not alive at the end.`;
   }
 }

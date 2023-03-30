@@ -68,7 +68,6 @@ header {
 }
 
 /* ---------- footer styling ---------- */
-
 footer {
     background-color: var(--green);
     color: var(--text-color-gold);
@@ -126,7 +125,6 @@ main {
 }
 
 /* ---------- grid item styling ---------- */
-
 .grid-item {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
     padding: 1.5em;
@@ -150,8 +148,20 @@ main {
     margin: 0.3em 0;
 }
 
-/* ---------- buttons in grid container ---------- */
+.spoiler {
+    color: black;
+    background-color: black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
 
+.spoiler:hover, .spoiler:focus {
+    color: white;
+}
+
+/* ---------- buttons in grid container ---------- */
 .grid-container .btns {
     padding: 1em 0 0;
     display: grid;
@@ -199,7 +209,6 @@ input {
 }
 
 /* ---------- dialog styling ---------- */
-
 dialog {
     border-color: var(--green);
     background-color: var(--light-green);
